@@ -34,7 +34,7 @@
 
 ## markdown文件渲染结果
 
-![markdown渲染效果](/github/imgs/markdown渲染效果.png)
+![markdown渲染效果](./imgs/markdown渲染效果.png)
 
 ## 显示在Alist媒体库中的效果
 
