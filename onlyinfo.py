@@ -10,4 +10,6 @@ page_text = requests.get(url,headers=headers).text
 soup = BeautifulSoup(page_text,'lxml')
 
 fileDIV = soup.find(attrs={'id': 'info'}).text
+with open('./only.md','w',encoding='utf-8') as f:
+    f.write(fileDIV)
 print(fileDIV)
